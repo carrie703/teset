@@ -1,0 +1,61 @@
+/* html root style */
+
+html {
+	background-image: url("../images/bats.gif");	
+}
+
+body {
+
+
+    width: 800px;
+
+}
+
+/* style for main nav bar */
+nav {
+
+    background-color: black;
+}
+
+nav ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   list-style-type: none;
+}
+
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+}
+
+/* main element style  */
+main {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* sidebar content */
+
+aside {
+
+    margin-right: 40px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 800px){
+    html {
+
+        background-image: none;   
+    }
+
+    body {
+
+        border: none;
+        font-size: 0.5em;
+    }
+}
